@@ -28,8 +28,8 @@ git pull
 git checkout -b dev-resolve-conflict
 git push --set-upstream dev-resolve-conflict
 git merge features/task-a
--- use tool in editor to resolve conflict code.
+-- use git tool in editor to resolve conflict code.
 git commit -a -m"resolved conflict task-a"
-git push --force
+git push
 -----
 create pull request dev-resolve-conflict ----> dev
