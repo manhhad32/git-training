@@ -19,3 +19,17 @@ git reset --soft 14b79ca8c7
 git merge --squash
 git commit -a -m"task a" 
 git push --force.
+
+---
+resole conflict
+--- branch features/task-a (confict code)
+git checkout dev 
+git pull
+git checkout -b dev-resolve-conflict
+git push --set-upstream dev-resolve-conflict
+git merge features/task-a
+-- use git tool in editor to resolve conflict code.
+git commit -a -m"resolved conflict task-a"
+git push
+-----
+create pull request dev-resolve-conflict ----> dev
