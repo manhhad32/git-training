@@ -1,3 +1,4 @@
 public class TestGit {
-    private String name;
+    private String namee;
+    private String age;
 }
